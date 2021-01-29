@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 16px;
+}
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url("../images/bg-pattern-top.svg"),
+    url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: -80% 180%, 170% -130%;
+  background-origin: border-box;
+}
