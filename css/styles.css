@@ -94,7 +94,7 @@ body {
 }
 
 footer.footer {
-  background: yellow;
   position: fixed;
   bottom: 1%;
+  color: hsl(227, 10%, 46%);
 }
